@@ -21,7 +21,7 @@ function App() {
         </Title>
 
           <Title title="Contract">
-            <p>moment().format('dddd')</p>
+            <p>{moment().format('dddd')}</p>
             <p style={{display : hide? "none" : 'block'}}>Tel : +6666666666</p>
             <button onClick={() => Sethid(!hide)}>hide</button>
             <p>Email : xxxxxx@gmail.com</p>
