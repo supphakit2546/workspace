@@ -5,6 +5,7 @@ import { ImageProfile } from './components/ImageProfile'
 import './App.css'
 import { Title } from './components/Title'
 import moment from 'moment'
+import imgprofile from './assets/react.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
 
     <main id="main">
       <div className='leftPort'>
-        <ImageProfile image="/src/assets/react.svg" />
+        <ImageProfile image={imgprofile} />
 
         <Title title="Supphakit Sriprathum">
           <h3>student</h3>
